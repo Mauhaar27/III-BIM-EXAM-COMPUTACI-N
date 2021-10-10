@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.nom{
+    display: flex;
+    justify-content: left;
+    margin-left: 10%;
+}
+.nom1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.inic{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../IMGDEPORTES/IMG_20170222_164302.jpg);
+    background-size: cover;
+}
+.inic2{
+    height: 100vh;
+    background-color:rgb(26, 25, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgprin{
+    width: 90%;
+}
+.inic2 h1{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.imgprin img{
+    width: 100%;
+}
+.textinic{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eltext{
+    background-color: rgba(251, 251, 251, 0.151);
+    width: 60%;;
+    padding: 1.5em;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.texto{
+    font-family: monospace;
+    font-size: 1.1rem;
+    text-align: justify;
+    color: white;
+}
+.aspectsprin{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aspectsprin h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    color: white;
+}
+.theaspects{
+    position: relative;
+    height: 25vh;
+    width: 90%;
+    margin-top: 1em;
+}
+.theaspects img{
+    position: absolute;
+    width: 100%;
+    height: 23vh;
+    object-fit: cover;
+}
+.lostextstitle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7), transparent);
+}
+.lostextstitle h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.6em;
+    padding-left: 1em;
+    color: white;
+
+}
+.aspects{
+    background-color:rgb(26, 25, 43);
+    width: 100%;
+    height: 100%;
+}
+.active{
+    display: block;
+}
+@media screen and (min-width: 900px) {
+    .nom{
+      padding-left: 5rem;
+      padding-right: 5rem;
+      align-items: center;
+    }
+  }
+
+
+
+
+
